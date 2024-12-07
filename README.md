@@ -17,7 +17,7 @@ You can download the **v0.1 release** from the [releases page](https://github.co
 
 ## Requirements 🔧
 
-- **Operating System**: Windows 11 (for now) (tested only on Windows 11)
+- **Operating System**: Windows 10/11 (for now)
 
 ## How to Build 🛠️
 -
