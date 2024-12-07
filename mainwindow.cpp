@@ -22,6 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     this->setFixedSize(this->size());
+    this->setWindowTitle("CSDowner");
 
     // curr time
     ui->labelCurrentTime->setDigitCount(8);

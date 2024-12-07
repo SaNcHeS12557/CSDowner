@@ -21,19 +21,12 @@ FORMS += \
 LIBS += \
     -lpowrprof
 
+TARGET = CSDowner
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-
-# DISTFILES += \
-#     CDowner.exe.manifest \
-#     rcfile.rc
-
-# win32 {
-#     RC_FILE = rcfile.rc
-# }
 
 RESOURCES += \
     resources.qrc

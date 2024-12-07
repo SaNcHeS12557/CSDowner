@@ -26,7 +26,6 @@ private slots:
     void startTimer(); // timer start
     void clearTimer(); // clear timer
     void executeShutdown();
-    // void checkAndUpdateTimeOptions();
     void countdownTick();
     void checkMinuteChange();
     bool isHibernateAvailable();
