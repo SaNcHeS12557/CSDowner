@@ -20,7 +20,7 @@ You can download the **v0.1 release** from the [releases page](https://github.co
 - **Operating System**: Windows 10/11 (for now)
 
 ## How to Build 🛠️
--
+- **In the future, there will be an option to build the project yourself. For now, the program is released in a pre-built state, and you don't need to perform the build manually. Stay tuned for updates on how to build the project once this feature becomes available.
 
 ## Issues 🐞
 
