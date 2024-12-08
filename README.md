@@ -17,10 +17,10 @@ You can download the **v0.1 release** from the [releases page](https://github.co
 
 ## Requirements 🔧
 
-- **Operating System**: Windows 11 (for now) (tested only on Windows 11)
+- **Operating System**: Windows 10/11 (for now)
 
 ## How to Build 🛠️
--
+- In the future, there will be an option to **build** the project yourself. For now, the program is released in a **pre-built state**, and you don't need to perform the build manually. Stay tuned for updates on how to **build** the project once this feature becomes available.
 
 ## Issues 🐞
 
@@ -33,7 +33,7 @@ Feel free to fork the repository, report bugs, and submit pull requests. Contrib
 
 ## License 📜
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL-3.0 license - see the [LICENSE](LICENSE) file for details.
 
 ---
 
