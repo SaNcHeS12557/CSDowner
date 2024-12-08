@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="resources.qrc">
-    <normaloff>:/images/src/icon.png</normaloff>:/images/src/icon.png</iconset>
+    <normaloff>:/images/src/icon.ico</normaloff>:/images/src/icon.ico</iconset>
   </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
@@ -200,10 +200,10 @@ QPushButton:pressed {
    <widget class="QLCDNumber" name="labelTimerValue">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>150</y>
-      <width>151</width>
-      <height>41</height>
+      <x>260</x>
+      <y>130</y>
+      <width>271</width>
+      <height>61</height>
      </rect>
     </property>
    </widget>
