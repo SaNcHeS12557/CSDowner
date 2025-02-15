@@ -6,14 +6,14 @@
 
 ## Features ✨
 
-- 💻 **Schedule Shutdowns**: Set a specific time for your PC to shut down automatically.
-- 💤 **Hibernation Support**: Choose to put your PC into hibernation instead of shutting down.
-- ⏲️ **Custom Timer**: Add custom intervals to control the shutdown time.
-- 🕰️ **Real-time Time Options**: View and select from available time options based on the current time.
+- 💻 **Schedule Shutdowns**: set a specific time for your PC to shut down automatically.
+- 💤 **Hibernation Support**: choose to put your PC into hibernation instead of shutting down.
+- ⏲️ **Custom Timer**: add custom intervals to control the shutdown time.
+- 🕰️ **Real-time Time Options**: view and select from available time options based on the current time.
 
 ## Download 📥
 
-You can download the **v0.1 release** from the [releases page](https://github.com/SaNcHeS12557/CSDowner/releases). Be cautious, as this release may contain **many bugs**.
+You can download the **v0.2 release** from the [releases page](https://github.com/SaNcHeS12557/CSDowner/releases). Be cautious, as this release may contain **many bugs**.
 
 ## Requirements 🔧
 
@@ -23,9 +23,7 @@ You can download the **v0.1 release** from the [releases page](https://github.co
 - In the future, there will be an option to **build** the project yourself. For now, the program is released in a **pre-built state**, and you don't need to perform the build manually. Stay tuned for updates on how to **build** the project once this feature becomes available.
 
 ## Issues 🐞
-
-- **Bugs in v0.1**: As it's an early version, expect some bugs and instability.
-- **Limited functionality**: Only available on Windows currently, with more features to come in future releases.
+- **Limited functionality**: only available on Windows currently, with more features to come in future releases.
 
 ## Contributing 🤝
 
