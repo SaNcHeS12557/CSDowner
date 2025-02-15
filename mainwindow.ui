@@ -23,10 +23,38 @@
    <iconset resource="resources.qrc">
     <normaloff>:/images/src/icon.ico</normaloff>:/images/src/icon.ico</iconset>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QMessageBox {
+    background-color: #2d2d2d;
+    color: white;
+    border: 1px solid #4a4a4a;
+    border-radius: 8px;
+}
+
+QMessageBox QPushButton {
+    background-color: #3c3c3c;
+    color: white;
+    border: 1px solid #4a4a4a;
+    border-radius: 8px;
+	min-width: 100px;
+	padding: 4px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #555;
+}
+
+QMessageBox QPushButton:focus {
+    background-color: #777;
+}</string>
+  </property>
   <property name="locale">
    <locale language="English" country="UnitedStates"/>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <widget class="QWidget" name="timeOptionsWidget" native="true">
     <property name="geometry">
      <rect>
@@ -35,6 +63,25 @@
       <width>131</width>
       <height>251</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #555;
+    color: white;
+    border: 0.5px solid #4a4a4a;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+QPushButton:hover {
+    background-color: #777;
+}
+
+QPushButton:disabled {
+    background-color: #1e1e1e;
+    color: gray;
+    border: 0.5px solid #4a4a4a;
+}</string>
     </property>
    </widget>
    <widget class="QWidget" name="intervalOptionsWidget" native="true">
@@ -45,6 +92,25 @@
       <width>411</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #555;
+    color: white;
+    border: 0.5px solid #4a4a4a;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+QPushButton:hover {
+    background-color: #777;
+}
+
+QPushButton:disabled {
+    background-color: #1e1e1e;
+    color: gray;
+    border: 0.5px solid #4a4a4a;
+}</string>
     </property>
     <widget class="QPushButton" name="s30Button">
      <property name="geometry">
@@ -115,11 +181,18 @@
    <widget class="QPushButton" name="startButton">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>308</x>
       <y>300</y>
-      <width>111</width>
+      <width>121</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>-1</pointsize>
+      <bold>false</bold>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
@@ -137,6 +210,11 @@ QPushButton:hover {
 
 QPushButton:pressed {
     background-color: #1c5980; 
+}
+
+QPushButton:disabled {
+	background-color: #1a1919;
+	color: gray;
 }</string>
     </property>
     <property name="text">

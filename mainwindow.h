@@ -19,18 +19,22 @@ public:
     ~MainWindow();
 
 private slots:
-    void updateCurrentTime();  // update cur time
+    void updateCurrentTime();
     void generateTimeOptions(); // time list generation
-    void handleTimeButtonClicked(); // button click processing
-    void handleIntervalButtonClicked(); // timer interval
-    void startTimer(); // timer start
-    void clearTimer(); // clear timer
+    void handleTimeButtonClicked();
+    void handleIntervalButtonClicked();
+    void startTimer();
+    void clearTimer();
+
     void executeShutdown();
     void countdownTick();
     void checkMinuteChange();
     bool isHibernateAvailable();
-    void checkHibernateAvailability(bool checked);
+    void checkHibernateAvailability(bool checked); // sleep availability
 
+
+protected:
+    void closeEvent(QCloseEvent *event);
 
 private:
     Ui::MainWindow *ui;
@@ -43,4 +47,5 @@ private:
 
     int lastDisplayedMinute;
 };
+
 #endif // MAINWINDOW_H

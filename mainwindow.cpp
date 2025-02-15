@@ -9,6 +9,7 @@
 // #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QMessageBox>
+#include <QCloseEvent>
 
 #include <windows.h>
 #include <powrprof.h>
@@ -62,6 +63,15 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::closeEvent(QCloseEvent *event){
+    if(isTimerActive) {
+        event->ignore();
+
+        HWND hwnd = (HWND)winId();
+        ShowWindow(hwnd, SW_SHOWMINIMIZED);
+    }
 }
 
 void MainWindow::updateCurrentTime()
@@ -273,7 +283,7 @@ void MainWindow::executeShutdown() {
     if (ui->sleepModeCheckBox->isChecked()) {
         // sleep mode
         if (!SetSuspendState(TRUE, FALSE, FALSE)) {
-            QMessageBox::critical(this, "Err", "hibernation mode failed");
+            QMessageBox::critical(this, "Err", "Hibernation mode failed");
         }
     } else {
         // shutdown
