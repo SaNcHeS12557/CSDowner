@@ -2,7 +2,7 @@
 
 **CSDowner** is a Windows-based application designed to allow users to schedule and manage shutdowns or hibernations of their PC with a simple and easy-to-use interface. 
 
-> ⚠️ **v0.1 Release** is available for download! Please note that it may contain **lots of bugs** as it's an early version. Your feedback is appreciated! 🙏
+> ⚠️ **v0.2 Release** is available for download! Please note that it may contain **lots of bugs** as it's an early version. Your feedback is appreciated! 🙏
 
 ## Features ✨
 
